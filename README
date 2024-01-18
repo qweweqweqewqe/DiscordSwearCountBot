@@ -1,0 +1,5 @@
+Go to .env and change the DISCORD_TOKEN to your Bot's token.
+This bot is currently at a functioning ability. However, It's not perfect.
+If you run it constantly, there should be no problems.
+However, if you turn it off, the swear count might reset.
+Feel free to edit the specific swear words or just make it one swear.
