@@ -4,7 +4,10 @@ import json
 def load_counts():
     try:
         with open("swear_counts.json", "r") as f:
-            return json.load(f)
+            data = f.read()
+            if not data:
+                return {}
+            return json.loads(data)
     except FileNotFoundError:
         return {}
 

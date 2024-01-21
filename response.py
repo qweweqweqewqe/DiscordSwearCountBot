@@ -5,8 +5,7 @@ from storage import save_counts
 def get_response(user_input: str, author, swear_count, count_dictionary) -> str:
 
     p_message = unicodedata.normalize("NFKD", user_input).casefold()
-    swear_words = ["fuck", "shit", "bitch", "fucking", "fuckin", "씨발", "시발", "새끼", "병신", "좆까", "ㅆㅂ",
-                   "ㅈㄲ", "ㄴㄱㅁ", "ㅅㅂ" "ㅄ", "ㅂㅅ"]
+    swear_words = ["insert", "swear words", "here"]
 
     for i in swear_words:
         swear_word_normalized = unicodedata.normalize("NFKD", i).casefold()
